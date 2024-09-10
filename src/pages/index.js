@@ -1,6 +1,7 @@
 import Image from "next/image";
 import localFont from "next/font/local";
 import SliderTest from "@/sections/SliderTest";
+import Crud from "@/sections/Crud";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,6 +17,7 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <div>
+      <Crud />
       <SliderTest />
     </div>
   );
