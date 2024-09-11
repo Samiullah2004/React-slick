@@ -37,7 +37,7 @@ const Hero = () => {
   }, [isWide]);
   return (
     <section className="w-full h-screen overflow-hidden" id="hero-section">
-      <div className="w-full h-screen relative overflow-hidden flex items-center justify-center section">
+      <div className="w-full h-screen relative flex items-center justify-center section">
         <Image
           width={775}
           height={517}
